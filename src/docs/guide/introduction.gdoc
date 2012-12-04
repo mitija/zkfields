@@ -1,0 +1,10 @@
+The _ZkFields plugin_ allows you to very quickly render forms for properties of domain objects, command beans and POGOs based on their type, name, etc. The plugin aims to:
+
+* Use good defaults for fields.
+* Support embedded properties of _GORM_ domain classes.
+
+h2. Changelog
+
+h3. Version 0.1.0
+
+_2012-12-04_: Initial release

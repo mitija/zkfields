@@ -1,0 +1,34 @@
+The plugin provides a set of tags you can use to render forms.
+
+(may not work yet) In the simplest case you can use _f:all_ to render a field for every property of a bean (the domain object or command the form will bind to):
+
+{code}
+<zkf:all bean="person"/>
+{code}
+
+To render individual fields you use the _zkf:field_ tag:
+
+{code}
+<zkf:field bean="person" property="name"/>
+<zkf:field bean="person" property="address"/>
+<zkf:field bean="person" property="dateOfBirth"/>
+{code}
+
+The _zkf:field_ tag will automatically handle embedded domain properties recursively:
+
+{code}
+<zkf:field bean="person" property="address"/>
+{code}
+
+
+To make it more convenient when rendering lots of properties of the same _bean_ you can use the _zkf:with_ tag to avoid having to specify _bean_ on any tags nested inside:
+
+{code}
+<zkf:with bean="person" viewmode="edit">
+	<zkf:field property="name"/>
+	<zkf:field property="address"/>
+	<zkf:field property="dateOfBirth"/>
+</zkf:with>
+{code}
+
+the _zkf:with_ tag accepts an optional argument: viewmode. It accepts two values: _edit_ and _readonly_. The default is _edit_. If _readonly_ is set then all fields will be rendered as labels instead of inputs

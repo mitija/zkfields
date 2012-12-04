@@ -1,0 +1,24 @@
+<plugin name='zk-fields' version='0.1.0' grailsVersion='2.1 &gt; *'>
+  <author>Raphael Alla</author>
+  <authorEmail>raphael@mitija.com</authorEmail>
+  <title>ZkFields Plugin</title>
+  <description>Form-field rendering based on zkui</description>
+  <documentation>http://freeside.co/grails-fields</documentation>
+  <type>ZkFieldsGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.zkfields.AssociationComposer</resource>
+    <resource>grails.plugin.zkfields.FormFieldsTemplateService</resource>
+    <resource>grails.plugin.zkfields.FormFieldsTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://mavensync.zkoss.org/maven2/' url='http://mavensync.zkoss.org/maven2/' />
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
