@@ -12,9 +12,9 @@ Usage
 
 The _zkf:field_ tag will automatically handle embedded domain properties recursively:
 
-{code}
+```xml
 <zkf:field bean="person" property="address"/>
-{code}
+```
 
 
 To make it more convenient when rendering lots of properties of the same _bean_ you can use the _zkf:with_ tag to avoid having to specify _bean_ on any tags nested inside:
