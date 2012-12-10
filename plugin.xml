@@ -3,7 +3,7 @@
   <authorEmail>raphael@mitija.com</authorEmail>
   <title>ZkFields Plugin</title>
   <description>Form-field rendering based on zkui</description>
-  <documentation>http://freeside.co/grails-fields</documentation>
+  <documentation>https://github.com/mitija/zkfields.git</documentation>
   <type>ZkFieldsGrailsPlugin</type>
   <resources>
     <resource>grails.plugin.zkfields.AssociationComposer</resource>

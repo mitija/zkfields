@@ -29,10 +29,10 @@ class ZkFieldsGrailsPlugin {
 	def authorEmail = 'raphael@mitija.com'
 	def description = 'Form-field rendering based on zkui'
 
-	def documentation = 'http://freeside.co/grails-fields'
+	def documentation = 'https://github.com/mitija/zkfields.git'
 	def license = 'APACHE'
-	def issueManagement = [system: 'GitHub', url: 'https://github.com/robfletcher/grails-fields/issues']
-	def scm = [system: 'GitHub', url: 'https://github.com/robfletcher/grails-fields']
+	def issueManagement = [system: 'GitHub', url: 'https://github.com/mitija/zkfields.git']
+	def scm = [system: 'GitHub', url: 'https://github.com/mitija/zkfields.git']
 
 	def doWithSpring = {
 		beanPropertyAccessorFactory(BeanPropertyAccessorFactory) {
